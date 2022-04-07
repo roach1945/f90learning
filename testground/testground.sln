@@ -7,6 +7,9 @@ Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "testground", "testground.vf
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "f90s(not real directory)", "f90s(not real directory)", "{3B6A73A2-8DDF-40C7-8C89-88B5BDF01D76}"
 	ProjectSection(SolutionItems) = preProject
+		arrayallocatable.f90 = arrayallocatable.f90
+		arrayassumedshape.f90 = arrayassumedshape.f90
+		arraysimple.f90 = arraysimple.f90
 		call_count(save attribute).f90 = call_count(save attribute).f90
 		fatorial.f90 = fatorial.f90
 		functionasparameter.f90 = functionasparameter.f90
