@@ -5,18 +5,23 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "testground", "testground.vfproj", "{BACE7A16-1760-4668-80ED-FE8BEA5DB154}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backupf90s", "backupf90s", "{3B6A73A2-8DDF-40C7-8C89-88B5BDF01D76}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "f90s(not real directory)", "f90s(not real directory)", "{3B6A73A2-8DDF-40C7-8C89-88B5BDF01D76}"
 	ProjectSection(SolutionItems) = preProject
-		..\backupf90s\functiontest.f90 = ..\backupf90s\functiontest.f90
+		call_count(save attribute).f90 = call_count(save attribute).f90
+		functionasparameter.f90 = functionasparameter.f90
 		..\backupf90s\functionwithmultipleinput.f90 = ..\backupf90s\functionwithmultipleinput.f90
+		KindNumberLookup.f90 = KindNumberLookup.f90
 		..\backupf90s\localvariableandreturn.f90 = ..\backupf90s\localvariableandreturn.f90
 		..\backupf90s\newproject.f90 = ..\backupf90s\newproject.f90
+		scopetest.f90 = scopetest.f90
 		..\backupf90s\simplefunctionandmodule.f90 = ..\backupf90s\simplefunctionandmodule.f90
 		..\backupf90s\solvelin.f90 = ..\backupf90s\solvelin.f90
-		..\backupf90s\Source1.f90 = ..\backupf90s\Source1.f90
 		..\backupf90s\subroutine.f90 = ..\backupf90s\subroutine.f90
+		..\backupf90s\subroutinetest.f90 = ..\backupf90s\subroutinetest.f90
 		..\backupf90s\voidfunction.f90 = ..\backupf90s\voidfunction.f90
 	EndProjectSection
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "testground2", "..\testground2\testground2.vfproj", "{D4DFFC1A-23DB-4218-8FED-57DBDEF36899}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +39,14 @@ Global
 		{BACE7A16-1760-4668-80ED-FE8BEA5DB154}.Release|x64.Build.0 = Release|x64
 		{BACE7A16-1760-4668-80ED-FE8BEA5DB154}.Release|x86.ActiveCfg = Release|Win32
 		{BACE7A16-1760-4668-80ED-FE8BEA5DB154}.Release|x86.Build.0 = Release|Win32
+		{D4DFFC1A-23DB-4218-8FED-57DBDEF36899}.Debug|x64.ActiveCfg = Debug|x64
+		{D4DFFC1A-23DB-4218-8FED-57DBDEF36899}.Debug|x64.Build.0 = Debug|x64
+		{D4DFFC1A-23DB-4218-8FED-57DBDEF36899}.Debug|x86.ActiveCfg = Debug|Win32
+		{D4DFFC1A-23DB-4218-8FED-57DBDEF36899}.Debug|x86.Build.0 = Debug|Win32
+		{D4DFFC1A-23DB-4218-8FED-57DBDEF36899}.Release|x64.ActiveCfg = Release|x64
+		{D4DFFC1A-23DB-4218-8FED-57DBDEF36899}.Release|x64.Build.0 = Release|x64
+		{D4DFFC1A-23DB-4218-8FED-57DBDEF36899}.Release|x86.ActiveCfg = Release|Win32
+		{D4DFFC1A-23DB-4218-8FED-57DBDEF36899}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
