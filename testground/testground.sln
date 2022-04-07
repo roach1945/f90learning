@@ -8,7 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "f90s(not real directory)", "f90s(not real directory)", "{3B6A73A2-8DDF-40C7-8C89-88B5BDF01D76}"
 	ProjectSection(SolutionItems) = preProject
 		call_count(save attribute).f90 = call_count(save attribute).f90
+		fatorial.f90 = fatorial.f90
 		functionasparameter.f90 = functionasparameter.f90
+		functionrecursiontest.f90 = functionrecursiontest.f90
 		..\backupf90s\functionwithmultipleinput.f90 = ..\backupf90s\functionwithmultipleinput.f90
 		KindNumberLookup.f90 = KindNumberLookup.f90
 		..\backupf90s\localvariableandreturn.f90 = ..\backupf90s\localvariableandreturn.f90
