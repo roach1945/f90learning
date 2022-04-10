@@ -21,6 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "f90s(not real directory)", 
 		..\backupf90s\newproject.f90 = ..\backupf90s\newproject.f90
 		scopetest.f90 = scopetest.f90
 		..\backupf90s\simplefunctionandmodule.f90 = ..\backupf90s\simplefunctionandmodule.f90
+		single_letters.f90 = single_letters.f90
 		..\backupf90s\solvelin.f90 = ..\backupf90s\solvelin.f90
 		..\backupf90s\subroutine.f90 = ..\backupf90s\subroutine.f90
 		..\backupf90s\subroutinetest.f90 = ..\backupf90s\subroutinetest.f90
